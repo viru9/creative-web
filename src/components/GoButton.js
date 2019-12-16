@@ -12,13 +12,10 @@ class GoButton extends Component {
     render() {
         return (
             <div>
-                <button>Go</button>
+                <button onClick={this.props.onClick}>Go</button>
             </div>
         )
     }
-
 }
-
-
 
 export default GoButton;
